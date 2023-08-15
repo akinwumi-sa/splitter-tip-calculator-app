@@ -1,0 +1,182 @@
+@import url('https://fonts.google.com/specimen/Space+Mono');
+
+.bod{
+    background-color: hsl(172, 67%, 45%);
+    background-color: hsl(183, 100%, 15%);
+    background-color: hsl(186, 14%, 43%);
+    background-color: hsl(184, 14%, 56%);
+    background-color: hsl(185, 41%, 84%);
+    background-color: hsl(189, 41%, 97%);
+    background-color: hsl(0, 0%, 100%);
+
+}
+
+body {
+    background-color: hsl(185, 41%, 84%);
+    overflow-x: hidden;
+}
+
+.body-container {
+    min-height: 650px;
+    height: 100vh;
+}
+
+.app {
+    background-color: hsl(0, 0%, 100%);
+    height: 80%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.first-div {
+    background-color: hsl(0, 0%, 100%);
+    height: 63%;
+}
+
+.second-div {
+    background-color: hsl(183, 100%, 15%);
+    height: 37%;
+}
+
+.reset-btn {
+    background-color: hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
+    outline: none;
+    border:none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.reset-btn:hover {
+    background-color: hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
+}
+
+.btn:focus {
+    text-decoration: none;
+}
+
+.reset-btn:active {
+    background-color: hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
+    outline: none;
+}
+.reset-btn:focus {
+    background-color: hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
+}
+
+
+.tip-btn {
+    background-color: hsl(183, 100%, 15%);
+    color: hsl(0, 0%, 100%);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.tip-btn:hover {
+    color: hsl(183, 100%, 15%);
+    background-color: hsl(172, 67%, 45%);
+}
+
+.custom-btn {
+    color: hsl(183, 100%, 15%);
+    background-color: hsl(189, 41%, 97%);
+    text-align: center;
+}
+
+.custom-btn:hover {
+    color: hsl(183, 100%, 15%);
+    background-color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+
+.btn-active::active {
+    color: hsl(183, 100%, 15%);
+    background-color: hsl(172, 67%, 45%);
+    text-decoration: none;
+}
+
+.form-div {
+    height: 100%;
+}
+
+.font-form {
+    font-size: 12px;
+    color: hsl(183, 100%, 15%);
+
+}
+
+.input-form {
+    background-color: hsl(189, 41%, 97%);
+    color: hsl(183, 100%, 15%);
+
+}
+
+.form-control::placeholder {
+    color: hsl(184, 14%, 56%);
+}
+
+.bi {
+    color: hsl(184, 14%, 56%);
+}
+
+.form-control:focus {
+    background-color: hsl(189, 41%, 97%);
+}
+
+.total-amount {
+    font-size: 12px;
+    color: hsl(189, 41%, 97%);
+}
+
+.person-amount {
+    font-size: 10px;
+    color: hsl(186, 14%, 43%);
+}
+
+.price {
+    color: hsl(172, 67%, 45%);
+}
+
+input[type="radio"]:checked+label {
+    color: hsl(183, 100%, 15%);
+    background-color: hsl(172, 67%, 45%);
+}
+
+@media only screen and (min-width: 992px) {
+
+    body {
+        overflow-y: hidden;
+
+    }
+    .app {
+        height: 60%;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    .body-container {
+        height: 100vh;
+    }
+    
+    .first-div {
+        background-color: hsl(0, 0%, 100%);
+        height: 90%;
+    }
+    
+    .second-div {
+        background-color: hsl(183, 100%, 15%);
+        height: 90%;
+    }    
+
+    .tip-btn {
+        font-size: 14px;
+    }
+    .custom-btn {
+        font-size: 14px;
+        border: solid 1px hsl(189, 41%, 97%);
+        text-align: center;
+
+    }
+    
+}
