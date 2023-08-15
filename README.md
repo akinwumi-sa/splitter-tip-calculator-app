@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL](https://github.com/akinwumi-sa/splitter-tip-calculator-app)
-- Live Site URL: [Live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live site URL here](https://splitter-hlj5.onrender.com)
 
 ## My process
 
